@@ -106,7 +106,7 @@ def fight(enemy, enemyHP, mindmg, maxdmg):
                 print("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
                 print("~~~~~~~~~~~~~~~~~~~~~GAME OVER~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
                 print("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
-                os._exit(0) #Written by partner
+                os._exit(0) 
             else:
                 print("Incorrect option.")
             
@@ -125,7 +125,7 @@ def fight(enemy, enemyHP, mindmg, maxdmg):
             print("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
             print("~~~~~~~~~~~~~~~~~~~~~GAME OVER~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
             print("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
-            os._exit(0) #Written by partner
+            os._exit(0)
 
 def itemshop():
     global yesshop
