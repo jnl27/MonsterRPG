@@ -17,7 +17,9 @@ This game only simulates the battle mechanics of games like Pokemon, Final Fanta
 On the player's turn, they will be prompted to type a battle command: "attack", "items", or "run"
 
 **Attack**: Swings the player's sword and uses a random number generator to deal damage to the enemy based on the type of sword equipped
+
 **Items**: Pulls out a menu of possible item selections that the player can then use in combat
+
 **Run**: Quits the game
 
 Upon successful completion of a battle command, it will then be the enemy's turn
