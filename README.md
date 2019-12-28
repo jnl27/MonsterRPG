@@ -6,13 +6,13 @@ MonsterRPG is a text-based turn-based Role Playing Game (RPG), inspired by the b
 
 The player also can carry items such as potions and bombs to use during battle. 
 
-###Disclaimer
+### Disclaimer
 
 This game only simulates the battle mechanics of games like Pokemon, Final Fantasy, etc. The mechanics are very simplified to make this first coding project easier.
 
-##Battle Mechanics
+## Battle Mechanics
 
-###Player's turn
+### Player's turn
 
 On the player's turn, they will be prompted to type a battle command: "attack", "items", or "run"
 
@@ -22,15 +22,15 @@ On the player's turn, they will be prompted to type a battle command: "attack", 
 
 Upon successful completion of a battle command, it will then be the enemy's turn
 
-###Enemy's turn
+### Enemy's turn
 
 On the Enemy's turn, the enemy simply uses their standard attack to deal damage to the player based on a random number generator with range specified in the enemy's description
 
-###Defeating an Enemy
+### Defeating an Enemy
 
 Once the player successfully defeats an enemy by reducing their HP to 0, they will be awarded with an amount of gold based on the range specified for that specific enemy
 
-##After battle & Item Shop
+## After battle & Item Shop
 
 After certain battles, the player will be asked if they would like to shop for items or heal themselves using the gold they've earned from battles. These items can then be purchased and subsequently used in combat to assist the player.
 In addition, the player may choose to upgrade their armor (increasing their max HP) or upgrade their sword (increasing their attack damage) in the shop.
